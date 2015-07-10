@@ -19,7 +19,6 @@ header img {
 }
 
 main {
-  display: flex;
   background: #fff;
   font-size: 11px;
   max-width: 600px;
@@ -46,17 +45,16 @@ footer img {
   padding-right: 85px;
   padding-top: 30px;
 }
-.allposts {
-  order: 1;
-}
-
 
 .rightside {
-  order: 2;
   background: #fff;
   font-weight: bold;
   font-size: 11px;
   max-width: 600px;
   padding: 20px;
   margin: 0 auto;
+}
+
+ul {
+  list-style: none;
 }
