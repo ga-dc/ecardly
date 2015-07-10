@@ -10,15 +10,15 @@
 </head>
 <body>
     <header>
-        <img src="images/background.jpg" />
-        <img src="images/logo.png" />
+        <div id="headerImage"></div>
+        <div id="headerLogo"></div>
     </header>
     <main>
         <!-- left side, nav bar -->
         <div id="nav">
             <div id="archive">
-                <p>ARCHIVE</p>
-                <ul>
+                <p class="navText">ARCHIVE</p>
+                <ul class="navText">
                     <li>January</li>
                     <li>February</li>
                     <li>March</li>
@@ -29,8 +29,8 @@
                 </ul>
             </div>
             <div id="blogRoll">
-                <p>BLOGROLL</p>
-                <ul>
+                <p class="navText">BLOGROLL</p>
+                <ul class="navText">
                     <li>Mailchimp</li>
                     <li>Shopify</li>
                     <li>The Next Web</li>
@@ -38,33 +38,39 @@
                     <li>Mashable</li>
                 </ul>
             </div>
-            <img src="images/ad-cut-and-paste.gif" />
-            <img src="images/ad-postcard-tee.png" />
-            <img src="images/ad-submit-your-own.png" />
+            <img src="images/ad-cut-and-paste.gif" class="adImage" />
+            <img src="images/ad-postcard-tee.png" class="adImage" />
+            <img src="images/ad-submit-your-own.png" class="adImage" />
 
-        </div/>
+        </div>
         <!-- right side, blog posts -->
         <div id="mainBody">
             <!-- individual blog post #1 -->
             <div class="blogPost">
-                <h2>Ecard of the Day</h2>
-                <img src="images/ecard-nycstartups.jpg" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a consectetur purus. Pellentesque at leo erat, id pellentesque sapien. Cras id purus sem. Nulla lacinia consequat nulla, vitae porttitor urna venenatis id. Nam iaculis risus ac mauris vestibulum malesuada. Nulla dolor mi, cursus sed ornare vel, feugiat sed nibh. Suspendisse vitae pulvinar ligula. In eu dui erat. Etiam sit amet malesuada turpis. Duis dapibus feugiat euismod. Suspendisse vitae consequat nunc. Vivamus aliquet vulputate varius.<a href="#">DOWNLOAD</a></p>
-                <p> Posted by Steve Smith on August 2, 2012 / Comments (3)</p>
+                <h2 class="blogTitle">Ecard of the Day</h2>
+                <div id="blogPostImg1" class="blogPostImg"></div>
+                <p class="blogBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a consectetur purus. Pellentesque at leo erat, id pellentesque sapien. Cras id purus sem. Nulla lacinia consequat nulla, vitae porttitor urna venenatis id. Nam iaculis risus ac mauris vestibulum malesuada. Nulla dolor mi, cursus sed ornare vel, feugiat sed nibh. Suspendisse vitae pulvinar ligula. In eu dui erat. Etiam sit amet malesuada turpis. Duis dapibus feugiat euismod. Suspendisse vitae consequat nunc. Vivamus aliquet vulputate varius.<a href="#">DOWNLOAD</a></p>
+                <hr class="topLine">
+                <p class="blogBody"> Posted by <a href="#">Steve Smith</a> on August 2, 2012 / Comments <a href="#">(3)</a></p>
+                <hr class="bottomLine">
             </div>
             <!-- individual blog post #2 -->
             <div class="blogPost">
-                <h2>Ecard of the Day</h2>
-                <img src="images/ecard-courage.jpg" />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a consectetur purus. Pellentesque at leo erat, id pellentesque sapien. Cras id purus sem. Nulla lacinia consequat nulla, vitae porttitor urna venenatis id. Nam iaculis risus ac mauris vestibulum malesuada. Nulla dolor mi, cursus sed ornare vel, feugiat sed nibh. Suspendisse vitae pulvinar ligula. In eu dui erat. Etiam sit amet malesuada turpis. Duis dapibus feugiat euismod. Suspendisse vitae consequat nunc. Vivamus aliquet vulputate varius. <a href="#">DOWNLOAD</a></p>
-                <p> Posted by Melanie Stevens on August 6, 2012 / Comments (3)</p>
+                <h2 class="blogTitle">Ecard of the Day</h2>
+                <div id="blogPostImg2" class="blogPostImg"></div>
+                <p class="blogBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a consectetur purus. Pellentesque at leo erat, id pellentesque sapien. Cras id purus sem. Nulla lacinia consequat nulla, vitae porttitor urna venenatis id. Nam iaculis risus ac mauris vestibulum malesuada. Nulla dolor mi, cursus sed ornare vel, feugiat sed nibh. Suspendisse vitae pulvinar ligula. In eu dui erat. Etiam sit amet malesuada turpis. Duis dapibus feugiat euismod. Suspendisse vitae consequat nunc. Vivamus aliquet vulputate varius. <a href="#">DOWNLOAD</a></p>
+                <hr class="topLine">
+                <p class="blogBody"> Posted by <a href="#">Melanie Stevens</a> on August 6, 2012 / Comments <a href="#">(3)</a></p>
+                <hr class="bottomLine">
             </div>
         </div>
     </main>
 <footer>
-    <img class="socialLink" src="images/social-icon-facebook.png" />
-    <img class="socialLink" src="images/social-icon-twitter.png" />
-    <img class="socialLink" src="images/social-icon-pinterest.png" />
+    <div id="footerBody">
+        <img class="socialLink" src="images/social-icon-facebook.png" />
+        <img class="socialLink" src="images/social-icon-twitter.png" />
+        <img class="socialLink" src="images/social-icon-pinterest.png" />
+    </div>
 </footer>
 
 </body>

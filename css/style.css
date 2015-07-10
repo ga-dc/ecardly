@@ -1,0 +1,129 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d6d6d6;
+}
+
+/*main {
+    margin: 0 auto;
+}*/
+
+/* header styles */
+#headerImage {
+    position: static;
+    height: 168px;
+    width: 100%;
+    background-image: url("../images/background.jpg");
+}
+
+#headerLogo {
+    position: relative;
+    margin: -149px auto 0 40%;
+    height: 212px;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+}
+
+/* nav styles */
+#nav {
+    float: right;
+    width: 20%;
+    margin-right: 16%;
+    background-color: #FFFFFF;
+}
+
+.adImage {
+    display: block;
+    margin: 20px auto;
+}
+
+p.navText {
+    padding-top: 30px;
+}
+.navText {
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: .75em;
+    line-height: 1.7em;
+
+}
+
+/* blog post styles */
+
+ #mainBody {
+     width: 45%;
+     margin: 3% 17%;
+     background-color: #FFFFFF;
+     padding-bottom: 40px;
+ }
+
+ .blogPost {
+     padding: 20px 20px 10px 20px;
+ }
+
+ #blogPostImg1 {
+     background-image: url("../images/ecard-nycstartups.jpg");
+ }
+
+ #blogPostImg2 {
+     background-image: url("../images/ecard-courage.jpg");
+ }
+
+ .blogPostImg {
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+ }
+
+ h2 {
+     font-family: sans-serif;
+     font-weight: bold;
+     padding-bottom: 10px;
+ }
+
+.blogBody {
+    font-family: sans-serif;
+    font-size: .75em;
+    line-height: 1.5em;
+    padding-bottom: 10px;
+}
+
+a {
+    color: #cc6633;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.topLine {
+    width: 100%;
+    margin: 0 auto 5px auto;
+    height: 2.5px;
+    border-top: black dotted 1px;
+}
+
+.bottomLine {
+    width: 100%;
+    margin: 0 auto 5px auto;
+    height: 2.5px;
+    background-color: black;
+
+}
+
+
+
+
+
+
+/* footer styles */
+
+#footerBody {
+    width: 11%;
+    height: 100px;
+    margin: 0 auto;
+}
